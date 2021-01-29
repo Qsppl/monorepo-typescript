@@ -1,8 +1,10 @@
 {
-  "name": "@monorepo-ts/first",
+  "name": "@monorepo-typescript/first",
   "version": "2.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc"
   },
   "license": "MIT"
 }

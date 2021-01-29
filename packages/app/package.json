@@ -1,9 +1,10 @@
 {
-  "name": "@monorepo-ts/app",
+  "name": "@monorepo-typescript/app",
   "version": "2.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "license": "MIT",
   "scripts": {
+    "build": "tsc"
   },
   "dependencies": {
     "@monorepo-ts/first": "^2.0.0",
