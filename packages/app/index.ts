@@ -1,4 +1,4 @@
-import {first} from '@monorepo-typescript/first'
+import {first} from '@monorepo-typescript/types'
 import {second} from '@monorepo-typescript/second'
 export const app = () => 'Hi from the app';
 
