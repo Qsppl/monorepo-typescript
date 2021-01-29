@@ -15,8 +15,8 @@
   "scripts": {
     "build:app": "npm run build --prefix packages/app",
     "build:types": "npm run build --prefix packages/types",
-    "build:second": "npm run build --prefix packages/second",
-    "build:all": "npm run build:app & npm run build:types & npm run build:second"
+    "build:helpers": "npm run build --prefix packages/helpers",
+    "build:all": "npm run build:app & npm run build:types & npm run build:helpers"
   },
   "dependencies": {
     "typescript": "^4.1.3"

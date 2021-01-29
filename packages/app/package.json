@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "@monorepo-typescript/types": "^2.0.0",
-    "@monorepo-typescript/second": "^2.0.0"
+    "@monorepo-typescript/helpers": "^2.0.0"
   }
 }
