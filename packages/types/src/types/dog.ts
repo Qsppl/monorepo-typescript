@@ -1,4 +1,6 @@
+import {DogNames} from "../enums";
+
 export type Dog = {
-    name: string
+    name: DogNames
     age: number
 }
