@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "main": "packages/dist/index.js",
   "types": "packages/dist/index.d.ts",
-  "license": "MIT",
+  "license": "ISC",
   "author": "EugeneKvach",
   "workspaces": [
     "packages/*"
@@ -16,7 +16,7 @@
     "build:app": "npm run build --prefix packages/app",
     "build:first": "npm run build --prefix packages/first",
     "build:second": "npm run build --prefix packages/second",
-    "build:all":"npm run build:app & npm run build:first & npm run build:second"
+    "build:all": "npm run build:app & npm run build:first & npm run build:second"
   },
   "dependencies": {
     "typescript": "^4.1.3"

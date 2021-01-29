@@ -2,12 +2,12 @@
   "name": "@monorepo-typescript/app",
   "version": "2.0.0",
   "main": "index.ts",
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
-    "@monorepo-ts/first": "^2.0.0",
-    "@monorepo-ts/second": "^2.0.0"
+    "@monorepo-typescript/first": "^2.0.0",
+    "@monorepo-typescript/second": "^2.0.0"
   }
 }

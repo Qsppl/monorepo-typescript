@@ -6,5 +6,5 @@
   "scripts": {
     "build": "tsc"
   },
-  "license": "MIT"
+  "license": "ISC"
 }

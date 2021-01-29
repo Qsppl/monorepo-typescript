@@ -1,5 +1,5 @@
-import {first} from '@monorepo-ts/first'
-import {second} from '@monorepo-ts/second'
+import {first} from '@monorepo-typescript/first'
+import {second} from '@monorepo-typescript/second'
 export const app = () => 'Hi from the app';
 
 export const main = () => {
