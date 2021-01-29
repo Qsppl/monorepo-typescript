@@ -5,9 +5,11 @@
   "license": "ISC",
   "scripts": {
     "build": "tsc",
+    "start:app": "ts-node-dev index.ts",
     "prepare": "npm run build"
   },
   "dependencies": {
+    "ts-node-dev": "^1.1.1",
     "@monorepo-typescript/types": "^2.0.0",
     "@monorepo-typescript/helpers": "^2.0.0"
   }
