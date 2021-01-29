@@ -1,23 +1,17 @@
 {
-  "name": "monorepo",
+  "name": "monorepo-ts",
   "version": "2.0.0",
   "main": "packages/app/index.js",
   "license": "MIT",
   "private": true,
-  "author": "SmolinPavel",
+  "author": "EugeneKvach",
   "workspaces": [
     "packages/*"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/SmolinPavel/monorepo.git"
+    "url": "https://github.com/euhoo/monorepo.git"
   },
-  "scripts": {
-    "test": "lerna run test --stream",
-    "update:version": "lerna version --no-push"
-  },
-  "devDependencies": {
-    "jest": "^24.7.1",
-    "lerna": "^3.13.2"
-  }
+  "scripts": {},
+  "devDependencies": {}
 }

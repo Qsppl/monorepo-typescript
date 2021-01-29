@@ -1,5 +1,5 @@
-const first = require('@monorepo/first');
-const second = require('@monorepo/second');
+const first = require('@monorepo-ts/first');
+const second = require('@monorepo-ts/second');
 
 const app = () => 'Hi from the app';
 

@@ -1,13 +1,5 @@
-## monorepo
 
-[![lerna](https://img.shields.io/badge/tutorial-lerna-yellowgreen.svg)](https://lernajs.io/)
-[![yarn](https://img.shields.io/badge/yarn-workspaces-blue.svg)](https://yarnpkg.com/)
-
-A test repo to show some advantages of using yarn workspaces and lerna. 👻
-Created as an example to the post [Creating a monorepo using lerna & yarn workspaces](https://habr.com/ru/post/448766/)
-
-```
-yarn
-yarn test
-yarn update:version
-```
+forked js repo and trying to make ts repo with workspaces
+to work with npm need npm version 7 or higher  
+https://stackoverflow.com/questions/46947557/do-yarn-workspaces-work-with-npm-too
+https://habr.com/ru/post/448766/
