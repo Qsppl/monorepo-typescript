@@ -1,11 +1,7 @@
-import {first} from '@monorepo-typescript/types'
-import {second} from '@monorepo-typescript/second'
-export const app = () => 'Hi from the app';
+import {someLogic} from './src'
 
-export const main = () => {
-  console.log(app());
-  console.log(first());
-  console.log(second());
-};
-
-main();
+(async () => {
+    console.log('app started');
+    await someLogic('Eugene', 33, 'gray')
+    console.log('app finished');
+})()

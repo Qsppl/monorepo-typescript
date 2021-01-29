@@ -1,7 +1,8 @@
 import {Work} from "./work";
 
 export interface DoWork {
+    work: Work
     good: () => void
     bad: () => void
-    isDone: (work: Work) => Promise<boolean>
+    isDone: () => Promise<boolean>
 }
