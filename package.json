@@ -1,6 +1,6 @@
 {
   "name": "monorepo-typescript",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "packages/dist/index.js",
   "types": "packages/dist/index.d.ts",
   "license": "ISC",

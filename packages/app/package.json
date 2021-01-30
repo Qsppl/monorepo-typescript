@@ -1,12 +1,12 @@
 {
   "name": "@monorepo-typescript/app",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "index.ts",
   "license": "ISC",
   "scripts": {
     "build": "tsc",
     "start:app": "ts-node-dev index.ts",
-    "prepare": "npm run build"
+    "//prepare": "npm run build"
   },
   "dependencies": {
     "ts-node-dev": "^1.1.1",
