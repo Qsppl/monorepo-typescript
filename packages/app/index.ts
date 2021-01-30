@@ -1,7 +1,7 @@
 import {someLogic} from './src'
 
-(async () => {
+export const app =  async () => {
     console.log('app started');
     await someLogic('Eugene', 33, 'gray')
     console.log('app finished');
-})()
+}

@@ -1,6 +1,6 @@
 {
   "name": "monorepo-typescript",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "license": "ISC",
   "author": "EugeneKvach",
   "workspaces": [
