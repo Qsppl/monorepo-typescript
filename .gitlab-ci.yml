@@ -1,0 +1,32 @@
+packages/app:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      changes:
+        - packages/app/**/*
+  trigger:
+    include:
+      - local: '/packages/app/.gitlab-ci.yml'
+    strategy: depend
+
+packages/helpers:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      changes:
+        - packages/helpers/**/*
+  trigger:
+    include:
+      - local: '/packages/helpers/.gitlab-ci.yml'
+    strategy: depend
+
+packages/types:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      changes:
+        - packages/types/**/*
+  trigger:
+    include:
+      - local: '/packages/types/.gitlab-ci.yml'
+    strategy: depend
